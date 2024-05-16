@@ -1,0 +1,136 @@
+@media screen and (max-width: 1020px){
+    /* home */
+    .menu{
+        display: none;
+    }
+
+    .C-title h1{
+        font-size: 2rem;
+    }
+
+    .C-title p{
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+    /* home */
+
+    /* sec1 */
+    .melhor-op{
+        height: 150vh;
+    }
+
+    .title-op h2{
+        font-size: 25px;
+    }
+
+    .card-op{
+        height: 275px;
+    }
+    
+    .card-op i{
+        font-size: 25px;
+    }
+    
+    .card-op h5{
+        font-size: 20px;
+    }
+    
+    .card-op p{
+        font-size: 12px;
+    }
+    /* sec1 */
+
+    /* sec2 */
+    .title-parc h2{
+        font-size: 30px;
+    }
+
+    .img-parc a img{
+        width: 300px;
+    }
+    /* sec2 */
+
+    /* sec3 */
+    .sobre{
+        height: 125vh;
+    }
+
+    .title-sobre h2{
+        font-size: 30px;
+    }
+
+    .caixa-sobre p{
+        font-size: 12px;
+    }
+    
+    .text-sobre{
+        height: 250px;
+    }
+    /* sec3 */
+
+    /* sec4 */
+    .title-clientes h2{
+        font-size: 30px;
+    }
+
+    .img-cliente a img{
+        width: 150px;
+    }
+    /* sec4 */
+
+    /* sec5 */
+    .title-loc h2{
+        font-size: 30px;
+    }
+
+    #mapa{
+        width: 300px;
+        height: 300px;
+    }
+    /* sec5 */
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1300px){
+/* sec1 */
+    .melhor-op{
+        height: 150vh;
+    }
+
+    .card-op{
+        height: 400px;
+    }
+    
+    .card-op p{
+        font-size: 24px;
+    }
+    /* sec1 */
+
+    /* sec2 
+    .img-parc a img{
+        width: 500px;
+    }
+    /* sec2 */
+
+    /* sec3 */
+    .caixa-sobre p{
+        font-size: 24px;
+    }
+    
+    .text-sobre{
+        height: 400px;
+    }
+    /* sec3 */
+
+    /* sec4 */
+    .img-cliente a img{
+        width: 300px;
+    }
+    /* sec4 */
+
+    /* sec5 */
+    #mapa{
+        width: 500px;
+        height: 500px;
+    }
+    /* sec5 */
+}

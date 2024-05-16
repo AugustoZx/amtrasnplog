@@ -1,0 +1,54 @@
+.melhor-op{
+    height: 100vh;
+    padding: 100px 0px;
+    width: 100%;
+}
+
+.title-op h2{
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.caixa-op{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card-op{
+    background-color: #050e16;
+    height: 350px;
+    width: 500px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-op i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: orange;
+}
+
+.card-op h5{
+    color: orange;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card-op p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    padding: 30px;
+}

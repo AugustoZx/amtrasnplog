@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 5px;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 5rem;
+}
+
+.background{
+    height: 100vh;
+    background-image: url(/img/fundo-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+body{
+    background-color: #0a1e2e;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+/*header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1.5rem;
+    align-items: center;
+}                               antigo */
+
+header.rolagem{
+    background-color: #0a1e2e;
+    padding: 20px 4%;
+}
+
+.logo img{
+    width: 50px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+header ul li{
+    display: inline block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-weight: 300;
+}
+
+ul li a:hover{
+    text-transform: capitalize;
+    color: orange;
+    border-bottom: solid 1px;
+    font-weight: 700;
+}
+
+.C-icon ion-icon{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.C-icon ion-icon:hover{
+    color: orange;
+    border-bottom: solid 1px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.background .C-title{
+    margin-right: 20px;
+}
+
+.C-title h1{
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 800;
+    width: 100%;
+}
+
+.C-title img{
+    width: 300px;
+}
+
+.C-title p{
+    color: white;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.botao-sobre {
+    display: inline-block;
+    border-radius: 20px;
+    border: 2.5px;
+    background: orange;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px orange;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.botao-sobre:hover{
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.um{
+    background-color: #0a1e2e;
+}
+
+footer{
+    background-color: #050e16;
+}
+
+.logo-footer img{
+    width: 75px;
+}

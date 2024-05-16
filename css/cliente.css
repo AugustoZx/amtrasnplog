@@ -1,0 +1,34 @@
+.quatro{
+    background-color: #050e16;
+    height: 100vh;
+}
+
+.clientes{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title-clientes h2{
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.caixa-clientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.img-cliente a img{
+    width: 400px;
+}
+
+.img-cliente{
+    display: inline-block;
+    padding: 0 3rem 2rem 3rem;
+}
