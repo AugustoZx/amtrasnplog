@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATO AM</title>
     <link rel="shortcut icon" href="img/LOGO AM WHITE.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/mop.css">
-    <link rel="stylesheet" href="css/parc.css">
-    <link rel="stylesheet" href="css/cliente.css">
+    <link rel="stylesheet" href="css/contatoresp.css">
 </head>
 <body>
     
@@ -23,23 +19,61 @@
                     </div>
 
                     <nav>
-                    <ul class="links">
-                        <li><a href="index.html">HOME</a></li>
-                    </ul>
+                        <ul class="links">
+                            <li><a href="index.html">HOME</a></li>
+                        </ul>
                     </nav>
-
-                    
-                    <!--<div class="C-icon">
-                        <a href="https://www.instagram.com/amtranspelog/" target="_blank" rel="noreferrer noopener"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="https://wa.me/+5511942055093" target="_blank" rel="noreferrer noopener"><ion-icon name="logo-whatsapp"></ion-icon></a>
-                    </div>-->
-                </header><!--header-->
-                
-            </div><!--flex-->
-        </div><!--container-->
+                </div><!--flex-->
+            </div><!--container-->
+        </header><!--header-->
         <div class="background">
-            
+            <div class="formulario">
+            <form action="https://formsubmit.co/financeiro@amtransporteslog.com.br" method="POST">
+                <h2 class="title-contato">CONTATO</h2>
+                <input type="text" name="name" placeholder="Digite seu nome" required>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">ENVIAR</button>
+
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            </div>  
+
+            <div class="qrcode">
+                <div class="qr">
+                    <img src="img/qrcode_api.whatsapp.com.png" alt="Matheus"><a href="https://wa.me/+5511949386226" target="_blank" rel="noreferrer noopener"><h3>Matheus</h3></a>
+                </div>
+                <div class="qr">
+                    <img src="img/qrcode_api.whatsapp.com (1).png" alt="Anderson"><a href="https://wa.me/+5511962935961" target="_blank" rel="noreferrer noopener"><h3>Anderson</h3></a>
+                </div>
+            </div>
         </div><!--background-->
     </div>
+
+    <footer>
+        <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="img/LOGO AM WHITE.png" alt="">
+                        </div><!--logo-footer-->
+                        <div class="C-icon">
+                                <a href="https://www.instagram.com/amtranspelog/" target="_blank" rel="noreferrer noopener"><ion-icon name="logo-instagram"></ion-icon></a>
+                                <a href="https://wa.me/+5511949386226" target="_blank" rel="noreferrer noopener"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                                <a href="https://www.linkedin.com/company/am-transportes-log%C3%ADstica/" target="_blank" rel="noreferrer noopener"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        </div>
+                    </div>
+            </div><!--line-footer-->
+            
+            <div class="line-footer borda">
+                <p><ion-icon name="mail-outline"></ion-icon><a href="mailto:financeiro@amtransporteslog.com.br">financeiro@amtransporteslog.com.br</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

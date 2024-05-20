@@ -126,6 +126,7 @@ ul li ul.dropdown{
 
 ul li:hover ul.dropdown{
     display: block;
+    background-color: #0a1e2e;
 }
 
 .background .C-title{
@@ -190,4 +191,23 @@ footer{
 
 .logo-footer img{
     width: 75px;
+}
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #050e16;
+}
+
+footer .borda{
+    padding: 20px 0;
+    border-top: 2px solid orange;
+}
+
+footer .line-footer p ion-icon{
+    color: white;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: white;
 }

@@ -1,0 +1,21 @@
+@media screen and (max-width: 1020px){
+    form{
+        width: 250px;
+    }
+
+    .formulario h2{
+        font-size: 20px;
+    }
+
+    div .qr img{
+        width: 75px;
+    }
+
+    div .qr h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1300px){
+    
+}
